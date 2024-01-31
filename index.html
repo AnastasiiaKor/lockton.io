@@ -3,43 +3,76 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lockton.io</title>
+    <title>LOCKTON.IO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500;9..40,700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
   </head>
   <body>
     <header>
-      <div class="headerContainer">
-        <a href="">Lockton.io</a>
+      <div class="container header">
+        <a href="#">
+          <img class="logo" src="./images/icon2.svg" alt="logo" />
+        </a>
+
         <nav>
-          <ul>
-            <li><a href="#about">About company</a></li>
-            <li><a href="#products">Products</a></li>
-            <li><a href="#rndLab">R&D Lab</a></li>
-            <li><a href="#contacts">Contacts</a></li>
+          <ul class="navList">
+            <li>
+              <a href="#about" class="navLink">About company</a>
+            </li>
+            <li><a href="#products" class="navLink">Products</a></li>
+            <li><a href="#rndLab" class="navLink">R&D Lab</a></li>
+            <li><a href="#contacts" class="navLink">Contacts</a></li>
           </ul>
         </nav>
       </div>
     </header>
     <main>
-      <div class="mainContainer">
-        <h1 id="about">Lockton.io</h1>
-        <p>
-          Lockton Solutions is a research center specializing in the development
-          and prototyping of digital systems. Our company adheres to the
-          principle of visionary thinking, where we strive to set the right
-          trends and explore new opportunities for sectors in the global market
+      <div class="container">
+        <h1 id="about">
+          <span class="part1">LOCKTON</span
+          ><span class="part2"> SOLUTIONS</span>
+        </h1>
+        <div class="about-text">
+          <strong>Lockton Solutions</strong> is a research center specializing
+          in the <strong>development</strong> and
+          <strong>prototyping</strong> of digital systems. Our company adheres
+          to the principle of visionary thinking, where we strive to set the
+          <strong>right trends</strong> and explore
+          <strong>new opportunities</strong> for sectors in the global market
           that are in need of innovation.
-        </p>
+        </div>
         <h2 id="products">Products of the Lockton Group of Companies</h2>
-        <ul>
-          <li>
-            <p>
-              <b>Lockton.one - </b>this is a platform that enables the
-              implementation and deployment of financial organizations in a
-              regulated environment, supported by trusted institutional
-              participants (government authorities).
+        <h3>Lockton.one</h3>
+        <div class="block">
+          <div class="block-par">
+            <p class="description">
+              This is a platform that enables the implementation and deployment
+              of financial organizations in a regulated environment, supported
+              by trusted institutional participants (government authorities).
             </p>
+            <p>
+              <a href="https://lockton.one/" target="_blank" class="link"
+                >lockton.one</a
+              >
+            </p>
+
+            <p><a href="" target="_blank" class="link">Whitepaper</a></p>
+          </div>
+
+          <div class="block-list">
             <p>At a foundational level, the platform:</p>
-            <ul>
+            <ul class="list">
               <li>Organizes role and permission management;</li>
               <li>
                 Offers a user and company adaptation flow in response to the
@@ -71,22 +104,29 @@
                 on L1).
               </li>
             </ul>
-            <a href="">WhitePaper</a>
-          </li>
-          <li>
-            <p>
-              <b>Lockton Finance (lockton.uz)</b> - the first licensed crypto
-              depository in Uzbekistan. Lockton Finance is a platform for asset
-              issuance, primary placement, and storage, licensed by the National
-              Agency of Perspective Projects of the Republic of Uzbekistan. The
-              platform is equipped with an on-chain KYC module with the
-              possibility of connecting to a third-party KYC provider in the
-              future. Each operation on the platform is recorded in its own
-              blockchain.
+          </div>
+        </div>
+        <h3>Lockton Finance</h3>
+        <div class="block">
+          <div class="block-par">
+            <p class="description">
+              The first licensed crypto depository in Uzbekistan. Lockton
+              Finance is a platform for asset issuance, primary placement, and
+              storage, licensed by the National Agency of Perspective Projects
+              of the Republic of Uzbekistan. The platform is equipped with an
+              on-chain KYC module with the possibility of connecting to a
+              third-party KYC provider in the future. Each operation on the
+              platform is recorded in its own blockchain.
             </p>
-
+            <p>
+              <a href="https://lockton.uz" target="_blank" class="link"
+                >lockton.uz</a
+              >
+            </p>
+          </div>
+          <div class="block-list">
             <p>Lockton Finance platform can provide the following services:</p>
-            <ul>
+            <ul class="list">
               <li>Deposit programs</li>
               <li>Possibility of fiat placements (UZS)</li>
               <li>
@@ -102,28 +142,35 @@
               <li>Storage and placement of issued assets</li>
               <li>Accounting for other types of collateral</li>
             </ul>
-          </li>
-          <li>
-            <p>
-              <b>LCKTN.COM</b> - a licensed crypto depository for operating in
-              the international market.
+          </div>
+        </div>
+        <h3>LCKTN</h3>
+        <div class="block">
+          <div class="block-par">
+            <p class="description">
+              A licensed crypto depository for operating in the international
+              market.
             </p>
-            <p>
+
+            <p class="description">
               LCKTN.COM - a platform for issuing, primary placement, and storage
               of assets, licensed by the National Agency for Promising Projects
               of the Republic of Uzbekistan.
             </p>
-            <p>
+            <p class="description">
               The platform is equipped with an onchain KYC module with the
               possibility of connecting to a third-party KYC provider in the
               future.
             </p>
-            <p>
+            <p class="description">
               Each operation on the platform is registered in its own
               blockchain.
             </p>
-            <p>Pltform lcktn.com can provide the following services:</p>
-            <ul>
+            <p><a href="#" target="_blank" class="link">lcktn.com</a></p>
+          </div>
+          <div class="block-list">
+            <p>Platform lcktn.com can provide the following services:</p>
+            <ul class="list">
               <li>Deposit programs</li>
               <li>Possibility of fiat placements (USD/EUR)</li>
               <li>
@@ -139,27 +186,30 @@
               <li>Storage and placement of issued assets</li>
               <li>Accounting for other types of collateral</li>
             </ul>
-          </li>
-          <li>
-            <p>
-              <b>Lockton Wallet (lcktnw.com)</b> - a cold wallet in the form of
-              a credit card equipped with an anthropometric access sensor.
-            </p>
-            <ul>
-              <li>Patented hot lamination production.</li>
-              <li>NFC support</li>
-              <li>Mobile application</li>
-              <li>C EAL5+ and EAL6+ certified.</li>
-              <li>Supports all common standards and crypto assets.</li>
-              <li>
-                Can be used as a cold key for access to Lockton Finance
-                services.
-              </li>
-              <li>Keys never leave the security perimeter.</li>
-            </ul>
-          </li>
-        </ul>
-        <h2>R&D Lab</h2>
+          </div>
+        </div>
+
+        <div class="block">
+          <h3>Lockton Wallet (lcktnw.com)</h3>
+          <a href="#" target="_blank" class="link">lcktnw.com</a>
+          <p class="description">
+            A cold wallet in the form of a credit card equipped with an
+            anthropometric access sensor.
+          </p>
+          <ul class="list">
+            <li>Patented hot lamination production.</li>
+            <li>NFC support</li>
+            <li>Mobile application</li>
+            <li>C EAL5+ and EAL6+ certified.</li>
+            <li>Supports all common standards and crypto assets.</li>
+            <li>
+              Can be used as a cold key for access to Lockton Finance services.
+            </li>
+            <li>Keys never leave the security perimeter.</li>
+          </ul>
+        </div>
+
+        <h2 id="rndLab">R&D Lab</h2>
         <ul>
           <li>Research 1</li>
           <li>Research 2</li>
@@ -169,8 +219,8 @@
         <p>Research Usage Rules</p>
       </div>
     </main>
-    <footer>
-      <div class="footerContainer">
+    <footer id="contacts">
+      <div class="container">
         <p>email: blala@mail.com</p>
       </div>
     </footer>
